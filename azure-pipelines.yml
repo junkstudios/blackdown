@@ -23,7 +23,7 @@ steps:
     
 - task: DotNetCoreToolInstaller@0
   inputs:
-    version: '2.22.2.100-preview2-009404' # replace this value with the version that you need for your project
+    version: '2.2.101' # replace this value with the version that you need for your project
 
 - task: NuGetCommand@2
   inputs:
