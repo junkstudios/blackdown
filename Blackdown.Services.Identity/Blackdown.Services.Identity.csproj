@@ -4,16 +4,14 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <UserSecretsId>2f38d594-7264-4962-b4bd-86a142b56753</UserSecretsId>
+    <UserSecretsId>80145a9b-7bb6-46b6-8e04-c421446c7e42</UserSecretsId>
   </PropertyGroup>
-
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
   </ItemGroup>
-
 
   <ItemGroup>
     <ProjectReference Include="..\Blackdown.Common\Blackdown.Common.csproj" />

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackdown.API", "Blackdown.API\Blackdown.API.csproj", "{62683026-7F08-415F-BD4A-43B9925BC223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blackdown.API", "Blackdown.API\Blackdown.API.csproj", "{62683026-7F08-415F-BD4A-43B9925BC223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackdown.Services.Identity", "Blackdown.Services.Identity\Blackdown.Services.Identity.csproj", "{77BBBC42-B9C3-4DA4-8F42-11923DD22556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackdown.Common", "Blackdown.Common\Blackdown.Common.csproj", "{B00684D9-CC03-473F-9AC4-7B07C937AD1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{62683026-7F08-415F-BD4A-43B9925BC223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62683026-7F08-415F-BD4A-43B9925BC223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62683026-7F08-415F-BD4A-43B9925BC223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BBBC42-B9C3-4DA4-8F42-11923DD22556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BBBC42-B9C3-4DA4-8F42-11923DD22556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BBBC42-B9C3-4DA4-8F42-11923DD22556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BBBC42-B9C3-4DA4-8F42-11923DD22556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00684D9-CC03-473F-9AC4-7B07C937AD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00684D9-CC03-473F-9AC4-7B07C937AD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00684D9-CC03-473F-9AC4-7B07C937AD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00684D9-CC03-473F-9AC4-7B07C937AD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
